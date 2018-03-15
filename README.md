@@ -11,7 +11,7 @@ Javascript Exercise List
     // 返回对象 </br>
     <pre>
     <code>
-     parseStrToNumberObject(strNumber) {
+    function parseStrToNumberObject(strNumber) {
       if (typeof (strNumber) === 'number') {
         strNumber = strNumber.toString();
       }
