@@ -55,7 +55,7 @@ class LongNumberComputer {
     }
 
     let strInt = strNumber.indexOf('.') && strNumber.substring(0, strNumber.indexOf('.')) || strNumber;
-    let strFloat = strNumber.indexOf('.') && strNumber.split('.')[1] || 0;
+    let strFloat = strNumber.indexOf('.') && strNumber.split('.')[1] || '0';
 
     return {
       strInt: strInt,
