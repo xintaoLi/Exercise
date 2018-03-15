@@ -7,8 +7,8 @@ Javascript Exercise List
  
    1）分别将数据格式化为小数部分和整数部分
    
-    // 判断输入数据类型，格式化数据为String
-    // 返回对象
+    // 判断输入数据类型，格式化数据为String </br>
+    // 返回对象 </br>
     <code>
      parseStrToNumberObject(strNumber) {
       if (typeof (strNumber) === 'number') {
