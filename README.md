@@ -9,8 +9,7 @@ Javascript Exercise List
    
     // 判断输入数据类型，格式化数据为String </br>
     // 返回对象 </br>
-    <pre>
-    <code>
+
     let parseStrToNumberObject = function(strNumber) {
       if (typeof (strNumber) === 'number') {
         strNumber = strNumber.toString();
@@ -27,8 +26,7 @@ Javascript Exercise List
         strFloat: strFloat
       };
     } 
-    </code>
-    </pre>
+
    
    2）采用补全方式，将两个相加数的整数部分和小数部分补全为相同长度的字符串
    3）将字符串拆分为数组，然后对数组进行遍历相加，分别计算出小数部分结果和整数部分结果
